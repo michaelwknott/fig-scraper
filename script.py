@@ -33,7 +33,7 @@ def get_html(css_selector):
     response = session.get(URL)
     # The 'render' method triggers Javascript content on the page
     response.html.render()
-    print(response.status_code)
+    print(f"{response.status_code} response from {response.url}")
     return response.html.find(css_selector)
 
 
