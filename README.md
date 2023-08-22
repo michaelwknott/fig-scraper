@@ -40,7 +40,7 @@ To get a local copy up and running, follow these simple steps.
     ```
 6. The script has run successfully if the following message is displayed
     ```bash
-    200 response. Successfully scraped results.
+    200 response from https://live.gymnastics.sport/live/17242/mensqual.php?app=fx
     ```
 
 ## License
